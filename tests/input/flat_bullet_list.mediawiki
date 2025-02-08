@@ -1,0 +1,18 @@
+Python's [[statement (computer science)|statements]] include:
+* The [[Assignment (computer science)|assignment]] statement, using a single equals sign <code>=</code>
+* The <code>[[if-then-else|if]]</code> statement, which conditionally executes a block of code, along with <code>else</code> and <code>elif</code> (a contraction of else-if)
+* The <code>[[Foreach#Python|for]]</code> statement, which iterates over an ''iterable'' object, capturing each element to a local variable for use by the attached block
+* The <code>[[While loop#Python|while]]</code> statement, which executes a block of code as long as its condition is true
+* The <code>[[Exception handling syntax#Python|try]]</code> statement, which allows exceptions raised in its attached code block to be caught and handled by <code>except</code> clauses (or new syntax <code>except*</code> in Python 3.11 for exception groups<ref>{{Cite web |title=8. Errors and Exceptions – Python 3.12.0a0 documentation |url=https://docs.python.org/3.11/tutorial/errors.html |access-date=2022-05-09 |website=docs.python.org |archive-date=9 May 2022 |archive-url=https://web.archive.org/web/20220509145745/https://docs.python.org/3.11/tutorial/errors.html |url-status=live }}</ref>); it also ensures that clean-up code in a <code>finally</code> block is always run regardless of how the block exits
+* The <code>raise</code> statement, used to raise a specified exception or re-raise a caught exception
+* The <code>class</code> statement, which executes a block of code and attaches its local namespace to a [[class (computer science)|class]], for use in object-oriented programming
+* The <code>def</code> statement, which defines a [[function (computing)|function]] or [[method (computing)|method]]
+* The <code>[[dispose pattern#Language constructs|with]]</code> statement, which encloses a code block within a context manager (for example, acquiring a [[lock (computer science)|lock]] before it is run, then releasing the lock; or opening and closing a [[Computer file|file]]), allowing [[resource acquisition is initialization|resource-acquisition-is-initialization]] (RAII)-like behavior and replacing a common try/finally idiom<ref>{{cite web|url=https://www.python.org/download/releases/2.5/highlights/|title=Highlights: Python 2.5|website=Python.org|access-date=20 March 2018|archive-date=4 August 2019|archive-url=https://web.archive.org/web/20190804120408/https://www.python.org/download/releases/2.5/highlights/|url-status=live}}</ref>
+* The <code>[[break statement|break]]</code> statement, which exits a loop
+* The <code>continue</code> statement, which skips the rest of the current iteration and continues with the next
+* The <code>del</code> statement, which removes a variable—deleting the reference from the name to the value, and producing an error if the variable is referred to before it is redefined
+* The <code>pass</code> statement, serving as a [[NOP (code)|NOP]], syntactically needed to create an empty code block
+* The <code>[[assertion (programming)|assert]]</code> statement, used in debugging to check for conditions that should apply
+* The <code>yield</code> statement, which returns a value from a [[generator (computer programming)#Python|generator]] function (and also an operator); used to implement [[coroutine]]s
+* The <code>return</code> statement, used to return a value from a function
+* The <code>[[include directive|import]]</code> and <code>from</code> statements, used to import modules whose functions or variables can be used in the current program

@@ -1,0 +1,18 @@
+{{columns-list|colwidth=30em|
+* [[Automation]]
+* [[Data analytics]]
+* [[Database]]s
+* [[Documentation]]
+* [[Graphical user interface]]s
+* [[Image processing]]
+* [[Machine learning]]
+* [[Mobile app]]s
+* [[Multimedia]]
+* [[Computer networking]]
+* [[Scientific computing]]
+* [[System administration]]
+* [[Test framework]]s
+* [[Text processing]]
+* [[Web framework]]s
+* [[Web scraping]]
+}}

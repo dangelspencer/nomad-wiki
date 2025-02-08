@@ -1,0 +1,9 @@
+{{Main|History of Python}}
+{{As of|2023|10|post=,}}
+{{As of|2023|June|27|since=y}}
+{{codes|filter|map|reduce|d=and}}
+{{codes|itertools}}
+{{Short description|General-purpose programming language}}
+{{cite web |url=https://wiki.python.org/moin/PythonForArtificialIntelligence |title=Python for Artificial Intelligence |publisher=Python Wiki |date=19 July 2012 |access-date=3 December 2012 |url-status=dead |archive-url=https://web.archive.org/web/20121101045354/http://wiki.python.org/moin/PythonForArtificialIntelligence |archive-date=1 November 2012}}
+{{cite book |title=Artificial Intelligence: A Modern Approach |last1=Russell |first1=Stuart J. |author-link1=Stuart J. Russell |last2=Norvig |first2=Peter |author-link2=Peter Norvig |name-list-style=amp |edition=3rd |year=2009 |publisher=Prentice Hall |location=Upper Saddle River, NJ |isbn=978-0-13-604259-4}}
+{{cite journal |editor-last=Paine |editor-first=Jocelyn |title=AI in Python |journal=AI Expert Newsletter |publisher=Amzi! |date=August 2005 |url=http://www.ainewsletter.com/newsletters/aix_0508.htm#python_ai_ai |access-date=11 February 2012 |archive-url=https://web.archive.org/web/20120326105810/http://www.ainewsletter.com/newsletters/aix_0508.htm#python_ai_ai |archive-date=26 March 2012 |url-status=dead}}

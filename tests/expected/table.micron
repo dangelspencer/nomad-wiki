@@ -1,0 +1,197 @@
++----------------+----------------+----------------+----------------+
+| Type           | `F07a          | Description    | S              |
+|                | `_`[Mutability |                | yntax examples |
+|                | `:/page/wiki.m |                |                |
+|                | u`page=immutab |                |                |
+|                | le_object]`_`f |                |                |
++================+================+================+================+
+| `Bcc           | immutable      | `F07a          | `Bcc           |
+| c`F222bool`b`f |                | `_`[Boolean va | c`F222True`b`f |
+|                |                | lue`:/page/wik |                |
+|                |                | i.mu`page=Bool |  `Bccc         |
+|                |                | ean_value]`_`f | `F222False`b`f |
++----------------+----------------+----------------+----------------+
+| `Bccc`F22      | mutable        | Sequence of `F | `Bccc`F222     |
+| 2bytearray`b`f |                | 07a`_`[bytes`: | bytearray(b'So |
+|                |                | /page/wiki.mu` | me ASCII')`b`f |
+|                |                | page=byte]`_`f |                |
+|                |                |                |                |
+|                |                |                | `Bccc`F222byte |
+|                |                |                | array(b"Some A |
+|                |                |                | SCII")`b`f `Bc |
+|                |                |                | cc`F222bytearr |
+|                |                |                | ay([119, 105,  |
+|                |                |                | 107, 105])`b`f |
++----------------+----------------+----------------+----------------+
+| `Bccc          | immutable      | Seq            | `Bccc`F222b'S  |
+| `F222bytes`b`f |                | uence of bytes | ome ASCII'`b`f |
+|                |                |                |                |
+|                |                |                |  `Bccc`F222b"S |
+|                |                |                | ome ASCII"`b`f |
+|                |                |                |  `Bccc`F222byt |
+|                |                |                | es([119, 105,  |
+|                |                |                | 107, 105])`b`f |
++----------------+----------------+----------------+----------------+
+| `Bccc`F        | immutable      | `F07a`_`[      | `Bccc`         |
+| 222complex`b`f |                | Complex number | F2223+2.7j`b`f |
+|                |                | `:/page/wiki.m |                |
+|                |                | u`page=Complex |  `Bccc`F2      |
+|                |                | _number]`_`f w | 223 + 2.7j`b`f |
+|                |                | ith real and i |                |
+|                |                | maginary parts |                |
++----------------+----------------+----------------+----------------+
+| `Bcc           | mutable        | `F07a`_`[Asso  | `Bccc`F2       |
+| c`F222dict`b`f |                | ciative array` | 22{'key1': 1.0 |
+|                |                | :/page/wiki.mu | , 3: False`b`f |
+|                |                | `page=Associat |                |
+|                |                | ive_array]`_`f | } `B           |
+|                |                |  (or dictionar | ccc`F222{`b`f} |
+|                |                | y) of key and  |                |
+|                |                | value pairs; c |                |
+|                |                | an contain mix |                |
+|                |                | ed types (keys |                |
+|                |                |  and values),  |                |
+|                |                | keys must be a |                |
+|                |                |  hashable type |                |
++----------------+----------------+----------------+----------------+
+| `Bcc           | immutable      | An `F07a`_`[el | `Bc            |
+| c`F222types.El |                | lipsis`:/page/ | cc`F222...`b`f |
+| lipsisType`b`f |                | wiki.mu`page=E |                |
+|                |                | llipsis_(progr |  `Bccc`F2      |
+|                |                | amming_operato | 22Ellipsis`b`f |
+|                |                | r)]`_`f placeh |                |
+|                |                | older to be us |                |
+|                |                | ed as an index |                |
+|                |                |  in `F07a`_`[N |                |
+|                |                | umPy`:/page/wi |                |
+|                |                | ki.mu`page=Num |                |
+|                |                | Py]`_`f arrays |                |
++----------------+----------------+----------------+----------------+
+| `Bccc          | immutable      | `F07a`_        | titl           |
+| `F222float`b`f |                | `[Double-preci | e=15. Floating |
+|                |                | sion`:/page/wi |  Point Arithme |
+|                |                | ki.mu`page=Dou | tic: Issues an |
+|                |                | ble-precision_ | d Limitations  |
+|                |                | floating-point | – Python 3.8.3 |
+|                |                | _format]`_`f ` |  documentation |
+|                |                | F07a`_`[floati |                |
+|                |                | ng-point numbe |                |
+|                |                | r`:/page/wiki. |                |
+|                |                | mu`page=floati |                |
+|                |                | ng-point_arith |                |
+|                |                | metic]`_`f. Th |                |
+|                |                | e precision is |                |
+|                |                |  machine-depen |                |
+|                |                | dent but in pr |                |
+|                |                | actice is gene |                |
+|                |                | rally implemen |                |
+|                |                | ted as a 64-bi |                |
+|                |                | t `F07a`_`[IEE |                |
+|                |                | E&nbsp;754`:/p |                |
+|                |                | age/wiki.mu`pa |                |
+|                |                | ge=IEEE&nbsp;7 |                |
+|                |                | 54]`_`f number |                |
+|                |                |  with 53 bits  |                |
+|                |                | of precision.< |                |
+|                |                | ref>{{Cite web |                |
++----------------+----------------+----------------+----------------+
+| `Bccc`F22      | immutable      | Unorde         | `Bcc           |
+| 2frozenset`b`f |                | red `F07a`_`[s | c`F222lang=pyt |
+|                |                | et`:/page/wiki | hon|frozenset( |
+|                |                | .mu`page=set_( | [4.0, 'string' |
+|                |                | computer_scien | , True])`b`f}} |
+|                |                | ce)]`_`f, cont |                |
+|                |                | ains no duplic |                |
+|                |                | ates; can cont |                |
+|                |                | ain mixed type |                |
+|                |                | s, if hashable |                |
++----------------+----------------+----------------+----------------+
+| `Bc            | immutable      | `F07a`_        | `B             |
+| cc`F222int`b`f |                | `[Integer`:/pa | ccc`F22242`b`f |
+|                |                | ge/wiki.mu`pag |                |
+|                |                | e=Integer_(com |                |
+|                |                | puter_science) |                |
+|                |                | ]`_`f of unlim |                |
+|                |                | ited magnitude |                |
++----------------+----------------+----------------+----------------+
+| `Bcc           | mutable        | `F0            | `Bccc`F        |
+| c`F222list`b`f |                | 7a`_`[List`:/p | 222[4.0, 'stri |
+|                |                | age/wiki.mu`pa | ng', True]`b`f |
+|                |                | ge=list_(compu |                |
+|                |                | ter_science)]` |  `B            |
+|                |                | _`f, can conta | ccc`F222[]`b`f |
+|                |                | in mixed types |                |
++----------------+----------------+----------------+----------------+
+| `Bccc`F222type | immutable      | An o           | `Bcc           |
+| s.NoneType`b`f |                | bject represen | c`F222None`b`f |
+|                |                | ting the absen |                |
+|                |                | ce of a value, |                |
+|                |                |  often called  |                |
+|                |                | `F07a`_`[null` |                |
+|                |                | :/page/wiki.mu |                |
+|                |                | `page=null_poi |                |
+|                |                | nter]`_`f in o |                |
+|                |                | ther languages |                |
++----------------+----------------+----------------+----------------+
+| `Bccc`F222     | immutable      | A placeholder  | `Bccc`F222NotI |
+| types.NotImple |                | that can be re | mplemented`b`f |
+| mentedType`b`f |                | turned from `F |                |
+|                |                | 07a`_`[overloa |                |
+|                |                | ded operators` |                |
+|                |                | :/page/wiki.mu |                |
+|                |                | `page=Operator |                |
+|                |                | _overloading]` |                |
+|                |                | _`f to indicat |                |
+|                |                | e unsupported  |                |
+|                |                | operand types. |                |
++----------------+----------------+----------------+----------------+
+| `Bccc          | immutable      | An `           | `Bccc`F222ran  |
+| `F222range`b`f |                | *immutable seq | ge(-1, 10)`b`f |
+|                |                | uence`* of num |                |
+|                |                | bers commonly  |  `Bc           |
+|                |                | used for loopi | cc`F222range(1 |
+|                |                | ng a specific  | 0, -5, -2)`b`f |
+|                |                | number of time |                |
+|                |                | s in `Bccc`F22 |                |
+|                |                | 2for`b`f loops |                |
++----------------+----------------+----------------+----------------+
+| `Bc            | mutable        | Unorde         | `Bccc`         |
+| cc`F222set`b`f |                | red `F07a`_`[s | F222{4.0, 'str |
+|                |                | et`:/page/wiki | ing', True`b`f |
+|                |                | .mu`page=set_( |                |
+|                |                | computer_scien | } `Bccc        |
+|                |                | ce)]`_`f, cont | `F222set()`b`f |
+|                |                | ains no duplic |                |
+|                |                | ates; can cont |                |
+|                |                | ain mixed type |                |
+|                |                | s, if hashable |                |
++----------------+----------------+----------------+----------------+
+| `Bc            | immutable      | A `F07a`_`[c   | `Bccc`F222'    |
+| cc`F222str`b`f |                | haracter strin | Wikipedia'`b`f |
+|                |                | g`:/page/wiki. |                |
+|                |                | mu`page=string |  `Bccc`F222"   |
+|                |                | _(computer_sci | Wikipedia"`b`f |
+|                |                | ence)]`_`f: se |                |
+|                |                | quence of Unic | `Bccc`F222     |
+|                |                | ode codepoints | `="""Spanning  |
+|                |                |                | multiple       |
+|                |                |                | lines"""`=     |
+|                |                |                | `b`f           |
+|                |                |                |                |
+|                |                |                | `Bccc`F222     |
+|                |                |                | `=Spanning     |
+|                |                |                | multiple       |
+|                |                |                | lines`=        |
+|                |                |                | `b`f           |
++----------------+----------------+----------------+----------------+
+| `Bccc          | immutable      | Can conta      | `Bccc`F        |
+| `F222tuple`b`f |                | in mixed types | 222(4.0, 'stri |
+|                |                |                | ng', True)`b`f |
+|                |                |                |                |
+|                |                |                |  `Bccc`F2      |
+|                |                |                | 22('single ele |
+|                |                |                | ment',)`b`f `B |
+|                |                |                | ccc`F222()`b`f |
++----------------+----------------+----------------+----------------+
+
+: Summary of Python 3's built-in types

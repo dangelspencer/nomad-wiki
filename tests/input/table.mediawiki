@@ -1,0 +1,104 @@
+{|class="wikitable"
+|+ Summary of Python 3's built-in types
+|-
+! Type
+! [[immutable object|Mutability]]
+! Description
+! Syntax examples
+|-
+| <code>bool</code>
+| immutable
+| [[Boolean value]]
+| {{code|lang=python|True}}<br/>{{code|lang=python|False}}
+|-
+| <code>bytearray</code>
+| mutable
+| Sequence of [[byte]]s
+| {{code|lang=python|bytearray(b'Some ASCII')}}<br/>{{code|lang=python|bytearray(b"Some ASCII")}}<br/>{{code|lang=python|bytearray([119, 105, 107, 105])}}
+|-
+| <code>bytes</code>
+| immutable
+| Sequence of bytes
+| {{code|lang=python|b'Some ASCII'}}<br/>{{code|lang=python|b"Some ASCII"}}<br/>{{code|lang=python|bytes([119, 105, 107, 105])}}
+|-
+| <code>complex</code>
+| immutable
+| [[Complex number]] with real and imaginary parts
+| {{code|lang=python|3+2.7j}}<br/>{{code|lang=python|3 + 2.7j}}
+|-
+| <code>dict</code>
+| mutable
+| [[Associative array]] (or dictionary) of key and value pairs; can contain mixed types (keys and values), keys must be a hashable type
+| {{code|lang=python|{'key1': 1.0, 3: False}}}<br/>{{code|lang=python|{}}}
+|-
+| <code>types.EllipsisType</code>
+| immutable
+| An [[Ellipsis (programming operator)|ellipsis]] placeholder to be used as an index in [[NumPy]] arrays
+| {{code|lang=python|...}}<br/>{{code|lang=python|Ellipsis}}
+|-
+| <code>float</code>
+| immutable
+| [[Double-precision floating-point format|Double-precision]] [[floating-point arithmetic|floating-point number]]. The precision is machine-dependent but in practice is generally implemented as a 64-bit [[IEEE&nbsp;754]] number with 53&nbsp;bits of precision.<ref>{{Cite web
+ |title=15. Floating Point Arithmetic: Issues and Limitations – Python 3.8.3 documentation
+ |url=https://docs.python.org/3.8/tutorial/floatingpoint.html#representation-error
+ |access-date=6 June 2020
+ |website=docs.python.org
+ |quote=Almost all machines today (November 2000) use IEEE-754 floating point arithmetic, and almost all platforms map Python floats to IEEE-754 "double precision".
+ |archive-date=6 June 2020
+ |archive-url=https://web.archive.org/web/20200606113842/https://docs.python.org/3.8/tutorial/floatingpoint.html#representation-error
+ |url-status=live
+}}</ref>
+|
+{{code|lang=python|1.33333}}
+|-
+| <code>frozenset</code>
+| immutable
+| Unordered [[set (computer science)|set]], contains no duplicates; can contain mixed types, if hashable
+| {{nobr|{{code|lang=python|frozenset([4.0, 'string', True])}}}}
+|-
+| <code>int</code>
+| immutable
+| [[Integer (computer science)|Integer]] of unlimited magnitude<ref name="pep0237" />
+| {{code|lang=python|42}}
+|-
+| <code>list</code>
+| mutable
+| [[list (computer science)|List]], can contain mixed types
+| {{code|lang=python|[4.0, 'string', True]}}<br/>{{code|lang=python|[]}}
+|-
+| <code>types.NoneType</code>
+| immutable
+| An object representing the absence of a value, often called [[null pointer|null]] in other languages
+| {{code|lang=python|None}}
+|-
+| <code>types.NotImplementedType</code>
+| immutable
+| A placeholder that can be returned from [[Operator overloading|overloaded operators]] to indicate unsupported operand types.
+| {{code|lang=python|NotImplemented}}
+|-
+| <code>range</code>
+| immutable
+| An ''immutable sequence'' of numbers commonly used for looping a specific number of times in <code>for</code> loops<ref>{{cite web |title=Built-in Types |url=https://docs.python.org/3/library/stdtypes.html#typesseq-range |access-date=3 October 2019 |archive-date=14 June 2020 |archive-url=https://web.archive.org/web/20200614194325/https://docs.python.org/3/library/stdtypes.html#typesseq-range |url-status=live}}</ref>
+| {{code|lang=python|range(-1, 10)}}<br/>{{code|lang=python|range(10, -5, -2)}}
+|-
+| <code>set</code>
+| mutable
+| Unordered [[set (computer science)|set]], contains no duplicates; can contain mixed types, if hashable
+| {{code|lang=python|{4.0, 'string', True}}}<br/>{{code|lang=python|set()}}
+|-
+| <code>str</code>
+| immutable
+| A [[string (computer science)|character string]]: sequence of Unicode codepoints
+| {{code|lang=python|'Wikipedia'}}<br/>{{code|lang=python|"Wikipedia"}}<syntaxhighlight lang="python">"""Spanning
+multiple
+lines"""</syntaxhighlight><syntaxhighlight lang="python">
+Spanning
+multiple
+lines
+</syntaxhighlight>
+|-
+| <code>tuple</code>
+| immutable
+| Can contain mixed types
+| {{code|lang=python|(4.0, 'string', True)}}<br/>{{code|lang=python|('single element',)}}<br/>{{code|lang=python|()}}
+|}

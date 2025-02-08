@@ -1,0 +1,19 @@
+Python's `F07a`_`[statements`:/page/wiki.mu`page=statement_(computer_science)]`_`f include:
+
+* The `F07a`_`[assignment`:/page/wiki.mu`page=Assignment_(computer_science)]`_`f statement, using a single equals sign `Bccc`F222=`b`f
+* The `F07a`_`[if`:/page/wiki.mu`page=if-then-else]`_`f statement, which conditionally executes a block of code, along with `Bccc`F222else`b`f and `Bccc`F222elif`b`f (a contraction of else-if)
+* The `F07a`_`[for`:/page/wiki.mu`page=Foreach#Python]`_`f statement, which iterates over an `*iterable`* object, capturing each element to a local variable for use by the attached block
+* The `F07a`_`[while`:/page/wiki.mu`page=While_loop#Python]`_`f statement, which executes a block of code as long as its condition is true
+* The `F07a`_`[try`:/page/wiki.mu`page=Exception_handling_syntax#Python]`_`f statement, which allows exceptions raised in its attached code block to be caught and handled by `Bccc`F222except`b`f clauses (or new syntax `Bccc`F222except*`b`f in Python 3.11 for exception groups); it also ensures that clean-up code in a `Bccc`F222finally`b`f block is always run regardless of how the block exits
+* The `Bccc`F222raise`b`f statement, used to raise a specified exception or re-raise a caught exception
+* The `Bccc`F222class`b`f statement, which executes a block of code and attaches its local namespace to a `F07a`_`[class`:/page/wiki.mu`page=class_(computer_science)]`_`f, for use in object-oriented programming
+* The `Bccc`F222def`b`f statement, which defines a `F07a`_`[function`:/page/wiki.mu`page=function_(computing)]`_`f or `F07a`_`[method`:/page/wiki.mu`page=method_(computing)]`_`f
+* The `F07a`_`[with`:/page/wiki.mu`page=dispose_pattern#Language_constructs]`_`f statement, which encloses a code block within a context manager (for example, acquiring a `F07a`_`[lock`:/page/wiki.mu`page=lock_(computer_science)]`_`f before it is run, then releasing the lock; or opening and closing a `F07a`_`[file`:/page/wiki.mu`page=Computer_file]`_`f), allowing `F07a`_`[resource-acquisition-is-initialization`:/page/wiki.mu`page=resource_acquisition_is_initialization]`_`f (RAII)-like behavior and replacing a common try/finally idiom
+* The `F07a`_`[break`:/page/wiki.mu`page=break_statement]`_`f statement, which exits a loop
+* The `Bccc`F222continue`b`f statement, which skips the rest of the current iteration and continues with the next
+* The `Bccc`F222del`b`f statement, which removes a variable—deleting the reference from the name to the value, and producing an error if the variable is referred to before it is redefined
+* The `Bccc`F222pass`b`f statement, serving as a `F07a`_`[NOP`:/page/wiki.mu`page=NOP_(code)]`_`f, syntactically needed to create an empty code block
+* The `F07a`_`[assert`:/page/wiki.mu`page=assertion_(programming)]`_`f statement, used in debugging to check for conditions that should apply
+* The `Bccc`F222yield`b`f statement, which returns a value from a `F07a`_`[generator`:/page/wiki.mu`page=generator_(computer_programming)#Python]`_`f function (and also an operator); used to implement `F07a`_`[coroutines`:/page/wiki.mu`page=coroutine]`_`f
+* The `Bccc`F222return`b`f statement, used to return a value from a function
+* The `F07a`_`[import`:/page/wiki.mu`page=include_directive]`_`f and `Bccc`F222from`b`f statements, used to import modules whose functions or variables can be used in the current program
